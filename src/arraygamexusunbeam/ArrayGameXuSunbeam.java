@@ -6,7 +6,7 @@ package arraygamexusunbeam;
 
 /**
  *
- * @author Tyler
+ * @author Tyler Xu, MD Nazmus Sunbeam
  */
 public class ArrayGameXuSunbeam {
 
@@ -15,5 +15,13 @@ public class ArrayGameXuSunbeam {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+    }
+    
+    public static void board(){
+        String[][] boardArray = new String[2][2];
+        boardArray[0][0] = "I";
+        boardArray[0][0] = "C";
+        boardArray[0][0] = "A";
+        boardArray[0][0] = "T";
     }
 }
